@@ -1,0 +1,371 @@
+:root {
+    --fontColor: #002D30;
+    --green: #4FE18F;
+    --blue: #00C3D6;
+    --lightGray: #F2F2F2;
+    --pink: #FF709D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightGray);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    background-color: #FFFFFF;
+    padding: 0 2rem 0 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 0 0 2rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--fontColor);
+}
+
+.homeWrapper{
+    width: 100%;
+}
+
+.home{
+    color: #838383;
+    font-size: 18px;
+    margin: 1rem 10rem;
+}
+
+hr{
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin: 3.5rem 0 1.8rem;
+    color: var(--fontColor);
+    text-align: center;
+}
+
+.dataSkills{
+    max-width: 100%;
+}
+
+.dataSkillsImg{
+    width: 100%;
+    height: auto;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteImg {
+    margin: 2.5rem 0 1.5rem;
+    width: 48px;
+    height: 44px;
+}
+
+.quoteParagraph {
+    max-width: 945px;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.2;
+}
+.director{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 3.4rem;
+}
+
+.section1{
+    text-align: center;
+    width: 100%;
+    background-color: var(--green);
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+
+.paragraphsWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    margin-bottom: 6.2rem;
+}
+
+.benefitWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem;
+    
+}
+
+.paragraphsWrapper h4{
+    justify-content: center;
+    display: flex;
+    max-width: 360px;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 2.5rem 0 ;
+}
+
+.paragraphsWrapper p{
+    display: flex;
+    max-width: 360px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.products{
+    padding: 0 1rem;
+}
+
+.dataJourney{
+    width: 555px;
+    height: 79.71px;
+    border: none;
+    margin: 0 0 5rem;
+    border-radius: 89px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--fontColor);
+    background-color: var(--lightGray);
+}
+
+.section2{
+    display: flex;
+    width: 100%;
+    background-color: var(--blue);
+}
+
+.quote1{
+    padding: 0 1.3rem 8rem 3.5rem;
+}
+
+.quote2{
+    transform: rotate(180deg);
+    padding: 8rem 1rem 0rem 3.5rem;
+}
+
+.section2Paragraph{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 5.6rem 0 1.5rem;
+    letter-spacing: 1px;
+}
+
+.director2{
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 6rem;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.section3h2{
+    padding: 0 15rem;
+    text-align: center;
+    margin: 4rem 0 2.5rem;
+    line-height: 1;
+}
+
+.section3Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0rem;
+}
+
+.iconsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.iconsContainer img{
+    margin-bottom: .5rem;
+}
+
+.iconsContainer h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    width: 262px;
+    margin: 0 0 1rem;
+}
+
+.iconsContainer p{
+    text-align: center;
+    font-size: 18px;
+    width: 262px;
+}
+
+.workWithUs {
+    background-color: var(--green);
+    width: 358px;
+    height: 73px;
+    border: none;
+    border-radius: 89px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--fontColor);
+    margin: 4.4rem 0 4.4rem;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--pink);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 9.5rem
+}
+
+.formContainer h3{
+    width: 100%;
+    padding: 4rem 0;
+    max-width: 1000px;
+    line-height: 1.2;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--fontColor);
+}
+
+input {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem 2.4rem;
+    height: 70px;
+    border-radius: 3px;
+    text-indent: 1.6rem;
+    border: none;
+    border-radius: 36px;
+}
+
+input::placeholder {
+    color: #002d30b9;
+    font-size: 25px;
+}
+
+.nameCompany{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name, .company{
+    width: 50%;
+}
+
+.name{
+    margin-right: 2rem;
+}
+
+.email{
+    width: 100%;
+}
+
+.textAreaWrapper{
+    width: 100%;
+}
+
+.textarea{
+    border-radius: 36px;
+    width: 100%;
+    border: none;
+    text-indent: 1.6rem;
+    resize: none;
+}
+
+.textarea::placeholder {
+    color: #002d30b9;
+    font-size: 25px;
+    padding-top: 1rem;
+}
+
+.submit{
+    background-color: black;
+    width: 100%;
+    height: 73px;
+    border: none;
+    border-radius: 89px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin: 3rem 0 4.5rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 129px;
+    font-size: 12px;
+    padding: 0 10rem;
+    background-color: var(--lightGray);
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li:first-child{
+    padding-right: 1.5rem;
+}
